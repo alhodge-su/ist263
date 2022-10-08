@@ -1,0 +1,23 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1, h2{
+    color: steelblue
+}
+
+.evenrow{
+    background-color: gainsboro
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  h1{
+    font-size: 2em
+  }
+  
+  h2{
+    font-size: 1em
+  }
