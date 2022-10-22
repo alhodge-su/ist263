@@ -1,0 +1,53 @@
+body{
+    background-color: #F6F7CE;
+}
+
+a{
+    color:#FAAD73;
+}
+
+a:visited{
+    color:#AA715E;
+}
+
+p, li{
+    color: #582D1B;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2{
+    color: #4682b4;
+}
+
+.evenrow{
+    background-color: #dcdcdc;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1em;
+}
+
+nav{
+    background-color: #FFFFB3;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color: #392E32;
+}
+
+nav a:hover{
+    background-color:#DEDFD8;
+}
