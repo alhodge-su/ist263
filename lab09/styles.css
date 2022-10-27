@@ -59,6 +59,21 @@ nav a:hover{
     justify-content: center;
 }
 
+.python{
+    width: 40px;
+    margin: 5px;
+}
+
+.psd{
+    width: 40px;
+    margin: 5px;
+}
+
+.bezier{
+    width: 50px;
+    margin: 5px;
+}
+
 .row{
     display: flex;
     justify-content: space-between;
