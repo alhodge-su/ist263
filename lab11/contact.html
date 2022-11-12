@@ -69,15 +69,17 @@
                 <form action="https://formspree.io/f/xaykonrk" method="POST">
                     <label for="firstname"><strong>Name:</strong></label><br>
                     <input type="text" id="firstname" name="firstname"><br>
-                    <br><strong>Gender:</strong><br>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
-                    <input type="radio" id="nonbinary" name="gender" value="nonbinary">
-                    <label for="nonbinary">Nonbinary</label><br>
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label><br>
+                    <br><fieldset>
+                        <legend><strong>Gender:</strong></legend>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+                        <label for="nonbinary">Nonbinary</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br>
+                    </fieldset>
                     <br><label for="comment"><strong>Comment:</strong></label><br>
                     <textarea id="comment" name="comment"></textarea><br>
                     <input type="submit" value="Submit"><br>
