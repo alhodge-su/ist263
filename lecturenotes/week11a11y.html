@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .welcome {
+            display: flex;
+            justify-content: center;
+        }
+        .skip {
+            background-color: #ffa500;
+            padding: 5px;
+            border: 1px solid black; /*border = combo property*/
+            position: absolute; /*takes out of normal flow, allowed to overlap stuff*/
+            top: 30px;
+            left: -999px; /*pushes element offscreen*/
+        }
+        .skip:focus{ /*focus is a pseudo class that means the element has been tabbed to*/
+            left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#content" class="skip" tabindex="1">Skip to Content</a><br> <!--# is gonna look for element with id of content, bookmark link-->
+    <a href="http://www.syracuse.edu" tabindex="2">Syracuse U.</a><br>
+    <a href="http://www.google.com" tabindex="3">Google</a><br>
+    <a href="http://www.amazon.com" tabindex="4">Amazon</a>
+    <div class="welcome">Hello World</div>
+    <p id="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus amet iste incidunt suscipit atque, excepturi ea reiciendis dolores alias odit hic laboriosam quas harum aut veniam eligendi maxime! Assumenda, maxime!</p> <!--id uniquely identitifes something on a page, class can be used over an over again-->
+</body>
+</html>
