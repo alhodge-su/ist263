@@ -47,7 +47,7 @@
     </head>
     <body>
         <nav>
-            <a href="#content" class="skip" tabindex="1">Skip to Content</a>
+            <a href="#content" class="skip">Skip to Content</a>
             <a href="index.html">Home</a> <span class="vert">&vert;</span>
             <a href="skills.html">Skills</a> <span class="vert">&vert;</span>
             <a href="contact.html">Contact</a>
@@ -59,8 +59,8 @@
                 <p>Alexandra Hodge<br>131 Slocum Dr<br>Syracuse, NY 13244<br></p>
             </div>
             <div class="sec2">
-                <p><a href="mailto:alhodge@syr.edu" target="new">alhodge@syr.edu</a></p>
-                <p><a href="https://www.linkedin.com/in/alexandra-hodge/" target="new"><img src="../images/logo-sized.png" alt="Linkedin Logo"> My Linkedin Profile</a></p>
+                <p class="contact"><a href="mailto:alhodge@syr.edu" target="new">alhodge@syr.edu</a></p>
+                <p class="contact"><a href="https://www.linkedin.com/in/alexandra-hodge/" target="new"><img src="../images/logo-sized.png" alt="Linkedin Logo"> My Linkedin Profile</a></p>
             </div>
         </section>
         <section class="row2">
@@ -69,11 +69,15 @@
                 <form action="https://formspree.io/f/xaykonrk" method="POST">
                     <label for="firstname"><strong>Name:</strong></label><br>
                     <input type="text" id="firstname" name="firstname"><br>
-                    <br><label for="firstname"><strong>Gender:</strong></label><br>
-                    <input type="radio" id="male" name="gender" value="male">Male<br>
-                    <input type="radio" id="female" name="gender" value="female">Female<br>
-                    <input type="radio" id="nonbinary" name="gender" value="nonbinary">Nonbinary<br>
-                    <input type="radio" id="other" name="gender" value="other">Other<br>
+                    <br><strong>Gender:</strong><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="nonbinary" name="gender" value="nonbinary">
+                    <label for="nonbinary">Nonbinary</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
                     <br><label for="comment"><strong>Comment:</strong></label><br>
                     <textarea id="comment" name="comment"></textarea><br>
                     <input type="submit" value="Submit"><br>
