@@ -35,13 +35,13 @@
     background-color: #00828D;
 }
 
-body a{
+.container main a{
     color: #046167;
     font-style: italic;
     text-decoration: none;
 }
 
-body a:hover{
+.container main a:hover{
     color: #043e3f;
     font-style: italic;
     text-decoration: underline;
@@ -63,6 +63,7 @@ body a:hover{
 
 .footer a{
     color: #000000;
+    text-decoration: none;
 }
 
 .contactform{
