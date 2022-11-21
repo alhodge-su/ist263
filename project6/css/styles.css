@@ -1,9 +1,9 @@
 .jumbotron{
-    height:  500px;
-    padding: 80px;
+    padding: 60px;
     background-image: url("../images/jumbopic.png");
     background-size: cover;
-    background-position: center;
+    background-position: 70% 50%;
+    background-attachment: fixed;
 }
 
 .jumbotron h1{
@@ -23,7 +23,7 @@
     padding-left: 50px;
     background: #076b6d;
     padding-right: 50px;
-    filter: drop-shadow(0px 1px 3px #b6b6b6);
+    filter: drop-shadow(0px 1px 3px #686868);
 }
 
 .navbar a{
@@ -44,8 +44,79 @@ body a:hover{
     color: #076b6d;
 }
 
-#align-center{ 
+.align-center{ 
     display: flex; 
     justify-content: center; 
   } 
+
+.intropic{
+    max-width: 100%;
+}
+
+.footer{
+    background-color: #bbbbbb;
+    padding: 10px;
+}
+
+.footer a{
+    color: #000000;
+}
+
+.contactform{
+    margin-top: 50px;
+    padding: 60px 60px 30px;
+    background-color: #F7F7F7;
+}
+
+.form-label{
+    display: none;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccccc;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid #cccccc;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+input[type=submit]{
+    background-color: #0a9396 !important; 
+    border: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #076b6d !important; 
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.contactsub{
+    font-size: 20px;
+}
+
+.skip {
+    background-color: #0a9396;
+    padding: 5px;
+    border: 1px solid black; /*border = combo property*/
+    position: absolute; /*takes out of normal flow, allowed to overlap stuff*/
+    top: 30px;
+    left: -999px; /*pushes element offscreen*/
+    color:#ffffff;
+}
+
+.skip:focus{ /*focus is a pseudo class that means the element has been tabbed to*/
+    left: 10px;
+}
 
