@@ -35,6 +35,11 @@
     background-color: #00828D;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
 .container main a{
     color: #046167;
     font-style: italic;
@@ -128,4 +133,8 @@ iframe{
     width: 560px;
     height: 315px;
     border: none;
+}
+
+.lifewsschead h1{
+    font-size: 5em;
 }
