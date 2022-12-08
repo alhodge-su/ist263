@@ -1,3 +1,4 @@
+
 body{
     background-color: #F6F7CE;
 }
@@ -15,7 +16,8 @@ p, li, .contact a{
 }
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 h1, h2{
