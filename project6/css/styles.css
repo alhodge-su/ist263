@@ -181,6 +181,10 @@ iframe{
     padding-left: 3px;
 }
 
+.inside{
+    list-style: none;
+}
+
 @media only screen and (max-width: 797px){
     .offcanvasbtn{
         -ms-transform: rotate(0deg);
