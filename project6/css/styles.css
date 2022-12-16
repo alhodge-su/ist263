@@ -1,6 +1,6 @@
 .jumbotron{
     padding: 60px;
-    background-image: url("../images/jumbopic.png");
+    background-image: url("../images/jumbopic.jpg");
     background-size: cover;
     background-position: 70% 50%;
     background-attachment: fixed;
@@ -40,13 +40,13 @@ body{
     font-weight: 400;
 }
 
-.container main a{
+.container a{
     color: #046167;
     font-style: italic;
     text-decoration: none;
 }
 
-.container main a:hover{
+.container a:hover{
     color: #043e3f;
     font-style: italic;
     text-decoration: underline;
@@ -136,6 +136,65 @@ iframe{
 }
 
 .lifewsschead h1{
-    font-size: 5em;
+    font-size: 3.4em;
+    padding-top: 20px;
+    font-weight: bold;
 }
 
+
+.lifewsschead h2{
+    font-size: 1.4em;
+}
+
+.article h3{
+    font-style: italic;
+}
+
+.offcanvasbtn{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(00deg);
+    border-radius: 0.9375em 0.9375em 0em 0em;
+    background-color: #046167 !important; 
+    border: none;
+}
+
+.offcanvasbtn:hover{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    transform: rotate(0deg);
+    border-radius: 0.9375em 0.9375em 0em 0em;
+    background-color: #043e3f !important;
+    border: none;
+}
+
+.offcanvas-title{
+    font-weight: bold;
+    size: 1.25em;
+}
+
+.treatingssched h1{
+    padding-top: 1em;
+    font-size: 3.4em;
+    font-weight: bold;
+}
+
+.headimg {
+    padding-left: 3px;
+}
+
+@media only screen and (max-width: 797px){
+    .offcanvasbtn{
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        border-radius: 0.9375em 0.9375em 0em 0em;
+        background-color: #046167 !important; 
+        border: none;
+    }
+
+    .offcanvasbtn:hover{
+        -ms-transform: rotate(0deg); /* IE 9 */
+        transform: rotate(0deg);
+        border-radius: 0.9375em 0.9375em 0em 0em;
+        background-color: #043e3f !important;
+        border: none;
+    }
+}
